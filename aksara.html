@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Aksara Simalungun</title>
+  <style type="text/css">
+  	html,
+body {
+  height: 100%;
+}
+@font-face {
+ font-family: 'aksara_simalungun';
+ src: url('file:///android_asset/fonts/aksara_simalungun.ttf');
+}
+#aksara {
+ font-family: 'aksara_simalungun';
+}
+body {
+  margin: 0;
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #fff;
+}
+table {
+  width:98%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: left;
+}
+thead th {
+  background-color: #55608f;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+  </style>
+  
+</head>
+
+<body>
+	<center><h2>Induk Surat</h2></center>
+	<table>
+		<thead>
+			<tr>
+				<th>No</th>
+				<th>Makna</th>
+				<th>Aksara</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+        <td>1</td>
+        <td>a</td>
+        <td id="aksara">a</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ha/ka</td>
+        <td id="aksara">k</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>ba</td>
+        <td id="aksara">b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>pa</td>
+        <td id="aksara">p</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>na</td>
+        <td id="aksara">n</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>wa</td>
+        <td id="aksara">w</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>ga</td>
+        <td id="aksara">g</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>ja</td>
+        <td id="aksara">j</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>da</td>
+        <td id="aksara">d</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>ra</td>
+        <td id="aksara">r</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>ma</td>
+        <td id="aksara">m</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>ta</td>
+        <td id="aksara">t</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>sa</td>
+        <td id="aksara">s</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>ya</td>
+        <td id="aksara">y</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>nga</td>
+        <td id="aksara"><</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>la</td>
+        <td id="aksara">l</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>nya</td>
+        <td id="aksara">[</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>i</td>
+        <td id="aksara">I</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>u</td>
+        <td id="aksara">U</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>Bindu</td>
+        <td id="aksara">!</td>
+    </tr>			
+		</tbody>
+	</table>
+
+<center><h2>Pengubah</h2></center>
+<table>
+	<thead>
+			<tr>
+				<th>No</th>
+				<th>Makna</th>
+				<th>Aksara</th>
+				<th>Fungsi</th>
+			</tr>
+		</thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Hatalingan</td>
+        <td id="aksara">ae</td>
+        <td>Pengubah a menjadi e</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Haluan</td>
+        <td id="aksara">ai</td>
+        <td>Pengubah a menjadi i</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sihorlu</td>
+        <td id="aksara">ao</td>
+        <td>Pengubah a menjadi o</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Haboritan</td>
+        <td id="aksara">N</td>
+        <td>Pengubah a menjadi u, na menjadi nu</td>
+    </tr>
+
+    </tbody>
+</table>
+<center><h2>Penambah</h2></center>
+<table>
+	<thead>
+			<tr>
+				<th>No</th>
+				<th>Makna</th>
+				<th>Aksara</th>
+				<th>Fungsi</th>
+			</tr>
+		</thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Hatulungan</td>
+        <td id="aksara">aO</td>
+        <td>Penambah ou</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Hajoringan</td>
+        <td id="aksara">ah</td>
+        <td>Penambah h</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Haminsaran</td>
+        <td id="aksara">a^</td>
+        <td>Penambah ng</td>
+    </tr>
+    </tbody>
+</table>
+
+<center><h2>Tanda Mati</h2></center>
+
+<table>
+    <thead>
+			<tr>
+				<th>No</th>
+				<th>Makna</th>
+				<th>Aksara</th>
+				<th>Fungsi</th>
+			</tr>
+		</thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Panongonan</td>
+        <td id="aksara">n-</td>
+        <td>Menghapus huruf a di akhir Induk Surat, na menjadi n</td>
+    </tr>
+
+    </tbody>
+</table>
+
+<p style="margin-top:20px; font-size:x-small;">
+    Keterangan :
+    <br/>1. Bindu = Alinea Baru
+    <br/>2. Pengubah, Penambah dan Tanda Mati merupakan bagian dari Anak Surat
+    <br/>3. Pada Anak Surat ditampilkan Induk Surat agar posisi Anak Surat kelihatan
+</p>
+<br/><br/>
+</body>
+</html>
